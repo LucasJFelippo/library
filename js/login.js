@@ -1,0 +1,1 @@
+$(".div-logo").width($(".div-logo").height());
