@@ -24,25 +24,37 @@ body{
     top: 10%;
     left: 50%;
     transform: translate(-50%);
-    width: 50%;
 }
 .input-login, .form-login{
     width: 100%;
     height: 100%;
 }
-@media(min-height: 1025px){
+.form-login{
+    display: inline-block;
+}
+@media(min-width: 1025px){
     .div-login-form{
-        height: 50px;
+        height: 25px;
+        width: 25%;
     }
 }
-@media(max-height: 1024px){
+@media(max-width: 1024px){
     .div-login-form{
-        height: 3%;
+        height: 20px;
+        width: 50%;
     }
 }
 .input-login{
     background-color: black;
     border: 1px solid rgba(200, 200, 200, 0.8);
+    color: rgba(200, 200, 200, 0.8);
+    padding-left: 5px;
+}
+.input-login:focus{
+    outline: none !important;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px #719ECE;
+    color: rgb(255, 255, 255);
 }
 .label-login{
     position: relative;
@@ -52,4 +64,72 @@ body{
 }
 .label-login2{
     margin-top: 5%;
+}
+.btn-main{
+    color: rgba(200, 200, 200, 0.8);
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(200, 200, 200, 0.8);
+}
+.btn-main:hover{
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+}
+.btn-main:focus{
+    outline: none;
+    color: rgba(200, 200, 200, 0.8);
+    background-color: rgb(0, 0, 0);
+    border-color: rgba(200, 200, 200, 0.8);
+}
+.btn-login, .btn-singin{
+    position: relative;
+    top: 25px;
+}
+.btn-singin{
+    float: right;
+}
+@media(min-width: 401px) and (max-width: 600px){
+    .btn-login{
+        left: 10px;
+    }
+    .btn-singin{
+        right: 10px;
+    }
+}
+@media(min-width: 601px) and (max-width: 1024px){
+    .btn-login{
+        left: 20%;
+    }
+    .btn-singin{
+        right: 20%;
+    }
+}
+@media(min-width: 1025px){
+    .btn-login{
+        left: 10%;
+    }
+    .btn-singin{
+        right: 10%;
+    }
+}
+.btn-guest{
+    position: relative;
+    top: 85px;
+    left: 50%;
+    transform: translate(-110%);
+}
+@media(max-width: 506px){
+    .btn-guest{
+        position: relative;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+.btn-sing{
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
 }
