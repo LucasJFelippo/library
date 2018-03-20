@@ -32,3 +32,6 @@ function loginverify(user, pass) {
     }
     return aux;
 }
+document.querySelector(".btn-guest").addEventListener('click', function () {
+    window.location.href = "store.html"
+});
