@@ -1,0 +1,72 @@
+.countainer{
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+}
+.div-main-profile{
+    position: relative;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 100px;
+}
+.div-main-profile img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100px;
+    widows: 100px;
+}
+.div-main-profile h2{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+.div-lvla{
+    position: relative;
+    top: 100px;
+    height: 50px;
+}
+.div-lvla h6{
+    color: rgb(200, 200, 200);
+    width: 50px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    text-align: center;
+}
+.div-lvl{
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 55px;
+    border: 2px dashed rgb(100, 0, 0);
+}
+.div-ach{
+    position: relative;
+    top: -100%;
+    float: right;
+    right: 5%;
+    height: 100%;
+    width: 55px;
+    border: 2px dashed rgb(100, 0, 0);
+}
+.div-lorem{
+    position: relative;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 200px;
+}
+.div-lorem p{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    color: rgb(150, 150, 150);
+}

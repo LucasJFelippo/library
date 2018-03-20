@@ -1,0 +1,99 @@
+.countainer{
+    position: relative;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 90%;
+    margin-bottom: 50px;
+}
+.library-games{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+}
+.library-games h3{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+    color: rgb(200, 200, 200);
+}
+.inst h3{
+    width: 110px;
+}
+.noninst h3{
+    width: 150px;
+}
+.inst{
+    margin-bottom: 25px;
+}
+.div-collun{
+    position: relative;
+    height: 80%;
+    width: 40%;
+}
+.div-collun1{
+    top: 10px;
+    left: 5%;
+}
+.div-collun2{
+    top: calc(-80% + 10px);
+    float: right;
+    right: 5%;
+}
+@media (max-width: 1023px){
+    .div-collun{
+        overflow: scroll;
+    }
+    .div-game{
+        position: relative;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        height: 15%;
+        width: 100%;
+        display: inline-block;
+    }
+    .img-game{
+        position: relative;
+        top: 50%;
+        left: 5px;
+        height: 90%;
+    }
+    .h5-game{
+        position: relative;
+        top: -70%;
+        left: 35%;
+        width: 50px;
+    }
+}
+@media (min-width: 1024px){
+    .div-game{
+        position: relative;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        height: 15%;
+        width: 100%;
+        display: inline-block;
+    }
+    .img-game{
+        position: relative;
+        top: 50%;
+        left: 5px;
+        height: 90%;
+    }
+    .h5-game{
+        position: relative;
+        top: -70%;
+        left: 10%;
+        width: 50px;
+    }
+}
+.h5-game{
+    margin: 0;
+    color: rgb(255, 255, 255)
+}

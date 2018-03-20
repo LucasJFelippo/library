@@ -1,0 +1,64 @@
+.countainer{
+    position: relative;
+    top: 50px;
+    width: 0;
+    height: calc(100% - 50px);
+    width: 100%;
+}
+.friend{
+    position: relative;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border: 3px solid rgb(35, 35, 35);
+}
+.friend-divider{
+    position: relative;
+    top: 0;
+    height: 20px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    margin: 6px 0px 3px 0px;
+}
+.friend img{
+    position: relative;
+    top: 7px;
+    left: 7px;
+    height: 40px;
+}
+.friend h4{
+    position: relative;
+    top: -40px;
+    left: 60px;
+    width: 70px;
+    color: rgb(200, 200, 200);
+}
+.friend h5{
+    position: relative;
+    top: -47px;
+    left: 60px;
+    width: 70px;
+    color: rgb(200, 200, 200);
+}
+.friend-divider h5{
+    position: relative;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    margin: 0;
+    color: rgb(200, 200, 200);
+}
+.span-friend{
+    background-color: rgb(45, 45, 45);
+    color: rgb(200, 200, 200);
+    border: 0px solid rgb(35, 35, 35);
+}
+.input-friend{
+    background-color: rgb(45, 45, 45);
+    color: rgb(200, 200, 200);
+    border: 0px solid rgb(35, 35, 35);
+}
+.input-group{
+    z-index: 0;
+}
