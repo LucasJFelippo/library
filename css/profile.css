@@ -18,7 +18,7 @@
     left: 50%;
     transform: translate(-50%);
     height: 100px;
-    widows: 100px;
+    width: 100px;
 }
 .div-main-profile h2{
     position: relative;
