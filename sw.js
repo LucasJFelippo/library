@@ -8,7 +8,7 @@ var preLoad = function(){
   console.log('[PWA Builder] Install Event processing');
   return caches.open('pwabuilder-offline').then(function(cache) {
     console.log('[PWA Builder] Cached index and offline page during Install');
-    return cache.addAll(['/library2/index.html', '/library2/friends.html','/library2/library.html','/library2/offline.html','/library2/profile.html','/library2/singin.html','/library2/store.html','/library2/css/friends.css','/library2/css/library.css','/library2/css/login.css','/library2/css/navbar.css','/library2/css/profile.css','/library2/css/store.css','/library2/js/login.js','/library2/js/navbar.js','/library2/js/singin.js','/library2/images/game-icon.png','/library2/images/icon.jpg','/library2/images/logo.png','/library2/images/manifest-icon.png']);
+    return cache.addAll(['/library2/','/library2/index.html','/library2/friends.html','/library2/library.html','/library2/offline.html','/library2/profile.html','/library2/singin.html','/library2/store.html','/library2/css/friends.css','/library2/css/library.css','/library2/css/login.css','/library2/css/navbar.css','/library2/css/profile.css','/library2/css/store.css','/library2/js/login.js','/library2/js/navbar.js','/library2/js/singin.js','/library2/images/game-icon.png','/library2/images/icon.jpg','/library2/images/logo.png','/library2/images/manifest-icon.png']);
   });
 }
 self.addEventListener('fetch', function(event) {
